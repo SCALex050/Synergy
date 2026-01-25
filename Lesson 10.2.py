@@ -9,4 +9,3 @@ else: step = -1
     
 for i in range (a, b+step, step):
     c.update ({ i: i**i} )
-print(c)
