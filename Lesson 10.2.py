@@ -1,4 +1,4 @@
-#задание 10.12
+#задание 10.2
 
 a = int(input ("Введите первое число - "))
 b = int(input ("Введите последнее число - "))
@@ -9,3 +9,4 @@ else: step = -1
     
 for i in range (a, b+step, step):
     c.update ({ i: i**i} )
+
